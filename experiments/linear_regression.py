@@ -43,7 +43,7 @@ SPLITS = {
     "test": ("2022-01-01", "2026-09-30"),
 }
 ALPHAS = [0, 1e3, 1e4, 1e5, 1e6]  # ridge penalties; 0 is plain OLS
-CACHE = Path("data/raw/stocks100_2009-01-01_2026-09-30.csv")
+CACHE = Path("data/stocks100_2009-01-01_2026-09-30.csv")
 REPORT = Path("experiments/linear_regression.md")
 
 
